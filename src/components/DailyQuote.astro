@@ -1,48 +1,40 @@
 ---
 import { phrases } from "../data/frases";
-
-
 ---
+
 <script>
-import { phrases } from "../data/frases";
+  import { phrases } from "../data/frases";
 
-// Función para obtener la fecha en formato YYYY-MM-DD
-function obtenerFechaActual() {
-      const hoy = new Date();
-      const año = hoy.getFullYear();
-      const mes = ("0" + (hoy.getMonth() + 1)).slice(-2);
-      const dia = ("0" + hoy.getDate()).slice(-2);
-      return `${año}-${mes}-${dia}`;
+  function obtenerFechaActual() {
+    const hoy = new Date();
+    const año = hoy.getFullYear();
+    const mes = ("0" + (hoy.getMonth() + 1)).slice(-2);
+    const dia = ("0" + hoy.getDate()).slice(-2);
+    return `${año}-${mes}-${dia}`;
+  }
+
+  let indice = parseInt(localStorage.getItem("indiceFrase") ?? "0");
+  let ultimaFecha = localStorage.getItem("ultimaFecha") || "";
+
+  const fechaActual = obtenerFechaActual();
+
+  if (fechaActual !== ultimaFecha) {
+    if (ultimaFecha !== "") {
+      indice = (indice + 1) % phrases.length;
     }
 
-    // Cargar el índice y la última fecha desde localStorage
-    let indice = parseInt(localStorage.getItem('indiceFrase') ?? '0');
-    let ultimaFecha = localStorage.getItem('ultimaFecha') || '';
+    localStorage.setItem("indiceFrase", indice.toString());
+    localStorage.setItem("ultimaFecha", fechaActual);
+  }
 
-    // Obtener la fecha actual
-    const fechaActual = obtenerFechaActual();
+  const fraseDelDia = phrases[indice];
 
-    // Comprobar si la última fecha guardada es diferente a la fecha actual
-    if (fechaActual !== ultimaFecha) {
-      // Si es diferente, significa que ha pasado un día o más
-      if (ultimaFecha !== '') {  // Si ya había una fecha almacenada, incrementar el índice
-        indice = (indice + 1) % phrases.length; // Incrementa el índice y vuelve al principio si es necesario
-      }
-
-      // Guarda el nuevo índice y la fecha actual en localStorage
-      localStorage.setItem('indiceFrase', indice.toString()); 
-      localStorage.setItem('ultimaFecha', fechaActual); 
-    }
-
-    // Almacenar la frase actual en una variable
-    const fraseDelDia = phrases[indice];
-
-    // Mostrar la frase del día en el elemento con id "frase-del-dia"
-    const fraseDelDiaElement = document.getElementById('frase-del-dia');
-    if (fraseDelDiaElement) {
-      fraseDelDiaElement.innerText = fraseDelDia;
-    }
+  const fraseDelDiaElement = document.getElementById("frase-del-dia");
+  if (fraseDelDiaElement) {
+    fraseDelDiaElement.innerText = fraseDelDia;
+  }
 </script>
-<div>
-    <p id="frase-del-dia"></p>
+<div class="flex justify-center items-center mt-14">
+  <p class="text-2xl text-white" id="frase-del-dia"></p>
+
 </div>
