@@ -12,9 +12,12 @@ export const phrases = [
     "Si haces lo que pocos están dispuestos a hacer durante un tiempo, podrás disfrutar lo que muy pocos podrán hacer durante mucho tiempo - Mark Manson.",
     "El consumidor vota cada día con su compra y no solo cada cuatro años - Joan Melé.",
     "La guerra es la paz del futuro - Silvio Rodríguez.",
+    "La verdadera felicidad solo ocurre cunado encuentras los problemas que disfrutas teniendo - Mark Manson.",
     "Un presupuesto es una herramienta que te dice dónde irá tu dinero en lugar de preguntarte dónde habrá ido - John C. Maxwell.",
     "Es imposible no tener, pero es posible que no sepas que tienes.",
     "Son más los que abandonan que los que fracasan - Henry Ford.",
-    
+    "La rapidez, que es una virtud, engendra un vicio que es la prisa - Gregorio Marañón.",
+    "La felicidad no es lo que te pasa, sino cómo interpretas lo que te pasa - Marian Rojas.",
+    "La manera más efectiva de cambiar tus hábitos es enfocarte no en lo que quieres lograr, sino en quién deseas convertirte - James Clear.",
   ];
   
