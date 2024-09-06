@@ -19,5 +19,6 @@ export const phrases = [
     "La rapidez, que es una virtud, engendra un vicio que es la prisa - Gregorio Marañón.",
     "La felicidad no es lo que te pasa, sino cómo interpretas lo que te pasa - Marian Rojas.",
     "La manera más efectiva de cambiar tus hábitos es enfocarte no en lo que quieres lograr, sino en quién deseas convertirte - James Clear.",
+    "Si te quita la paz, es demasiado caro - Paulo Coelho.",
   ];
   
