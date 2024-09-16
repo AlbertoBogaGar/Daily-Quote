@@ -20,5 +20,9 @@ export const phrases = [
     "La felicidad no es lo que te pasa, sino cómo interpretas lo que te pasa - Marian Rojas.",
     "La manera más efectiva de cambiar tus hábitos es enfocarte no en lo que quieres lograr, sino en quién deseas convertirte - James Clear.",
     "Si te quita la paz, es demasiado caro - Paulo Coelho.",
+    "Para ser felices se necesita eliminar dos cosas: el temor de un mal futuro y el recuerdo de un mal pasado.",
+    "La vida no te pregunta, te golpea y ya, y tu decides si te rompes como el cristal o te forjas como el acero.",
+    "La disciplina es explicarle a tu cerebro todos los días que necesitas sacrificar placeres inmediatos para recibir mayores recompensas en el futuro.",
+    "Las excusas hacen que el hoy sea fácil, pero el mañana dificil. La disciplina hace que el hoy sea dificil, pero el mañana fácil.",
   ];
   
