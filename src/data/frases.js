@@ -24,5 +24,9 @@ export const phrases = [
     "La vida no te pregunta, te golpea y ya, y tu decides si te rompes como el cristal o te forjas como el acero.",
     "La disciplina es explicarle a tu cerebro todos los días que necesitas sacrificar placeres inmediatos para recibir mayores recompensas en el futuro.",
     "Las excusas hacen que el hoy sea fácil, pero el mañana dificil. La disciplina hace que el hoy sea dificil, pero el mañana fácil.",
+    "La duda y el miedo destruyen más sueños de los que el fracaso puede destruir.",
+    "A veces necesitas arriesgarlo todo por un sueño que solo tú puedes ver.",
+    "Sin dolor, no creces. Sin metas, no avanzas. Sin riesgo, no progresas. Sin disciplina, no cambias.",
+    "La paz mental llega cuando entiendes que lo que está fuera de tu control también debe estar fuera de tu cabeza."
   ];
   
