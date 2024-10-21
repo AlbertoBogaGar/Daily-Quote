@@ -27,6 +27,8 @@ export const phrases = [
     "La duda y el miedo destruyen más sueños de los que el fracaso puede destruir.",
     "A veces necesitas arriesgarlo todo por un sueño que solo tú puedes ver.",
     "Sin dolor, no creces. Sin metas, no avanzas. Sin riesgo, no progresas. Sin disciplina, no cambias.",
-    "La paz mental llega cuando entiendes que lo que está fuera de tu control también debe estar fuera de tu cabeza."
-  ];
-  
+    "La paz mental llega cuando entiendes que lo que está fuera de tu control también debe estar fuera de tu cabeza.",
+    "El elefante no anda diciendo a todos lo grande que es, él solo camina.",
+    "Hay quienes creen que nunca volverán a tener sed y rompen el vaso.",
+    "Nunca seas prisionero de tu pasado. Fue una lección, no una cadena perpetua."
+]
